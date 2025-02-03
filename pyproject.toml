@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw-16"
+version = "0.1.0"
+description = ""
+authors = ["YShkolnyi <yevhenii.shkolnyj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.18.0"
+matplotlib = "^3.10.0"
+streamlit = "^1.41.1"
+pillow = "^11.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
